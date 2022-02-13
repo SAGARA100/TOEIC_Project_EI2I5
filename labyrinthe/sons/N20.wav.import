@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/N20.wav-e7750ec9c360bbc3ec3ae28855478428.sample"
+
+[deps]
+
+source_file="res://sons/N20.wav"
+dest_files=[ "res://.import/N20.wav-e7750ec9c360bbc3ec3ae28855478428.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

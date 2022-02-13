@@ -1,0 +1,55 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Camera.gd" type="Script" id=2]
+[ext_resource path="res://Spatial.gd" type="Script" id=3]
+[ext_resource path="res://sons/t1.wav" type="AudioStream" id=4]
+[ext_resource path="res://sons/hurt.wav" type="AudioStream" id=5]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 3 )
+
+[node name="Camera" type="Camera" parent="."]
+fov = 60.0
+size = 1.2
+near = 0.1
+script = ExtResource( 2 )
+
+[node name="Control" type="Control" parent="."]
+anchor_left = 0.064
+anchor_right = 0.202
+margin_left = 100.0
+margin_top = -90.0
+margin_right = 150.0
+margin_bottom = -40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Control"]
+margin_left = 400.0
+margin_top = 150.0
+margin_right = 490.0
+margin_bottom = 240.0
+rect_scale = Vector2( 3, 3 )
+text = "NORD"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Control"]
+margin_left = 400.0
+margin_top = 300.0
+margin_right = 490.0
+margin_bottom = 390.0
+rect_scale = Vector2( 2, 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )

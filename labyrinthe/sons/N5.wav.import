@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/N5.wav-738c4b7e7430ee692f1081a15452f381.sample"
+
+[deps]
+
+source_file="res://sons/N5.wav"
+dest_files=[ "res://.import/N5.wav-738c4b7e7430ee692f1081a15452f381.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

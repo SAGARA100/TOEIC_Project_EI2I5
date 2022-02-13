@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/N8.wav-dab1d30e562daada4d9ae20cfcc3897c.sample"
+
+[deps]
+
+source_file="res://sons/N8.wav"
+dest_files=[ "res://.import/N8.wav-dab1d30e562daada4d9ae20cfcc3897c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
